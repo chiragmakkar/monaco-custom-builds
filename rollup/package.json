@@ -1,0 +1,22 @@
+{
+  "name": "monaco-rollup-bundle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "monaco-treemending",
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/vscode": "^1.81.0",
+    "monaco-editor": "^0.41.0",
+    "monaco-languageclient": "^6.4.5",
+    "vscode": "npm:@codingame/monaco-vscode-api@^1.81.5",
+    "vscode-jsonrpc": "^8.1.0",
+    "vscode-languageclient": "^8.1.0",
+    "vscode-ws-jsonrpc": "^3.0.0"
+  }
+}

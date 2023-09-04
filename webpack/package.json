@@ -1,0 +1,33 @@
+{
+  "name": "monaco-custom-bundle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "monaco-languageclient": "^6.4.4",
+    "typescript": "^5.2.2",
+    "vscode": "npm:@codingame/monaco-vscode-api@^1.81.5",
+    "vscode-jsonrpc": "^8.1.0",
+    "vscode-languageclient": "^8.1.0",
+    "vscode-ws-jsonrpc": "^3.0.0"
+  },
+  "scripts": {
+    "postinstall": "monaco-treemending",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/vscode": "^1.81.0",
+    "bundle-declarations-webpack-plugin": "^4.0.1",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

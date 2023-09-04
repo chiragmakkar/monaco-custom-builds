@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmonaco_custom_bundle=self.webpackChunkmonaco_custom_bundle||[]).push([[806],{57806:(c,e,n)=>{n.r(e),n.d(e,{detect:()=>o});const o=()=>({encoding:"utf8",confidence:1})}}]);
+//# sourceMappingURL=806.bundle.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmonaco_custom_bundle=self.webpackChunkmonaco_custom_bundle||[]).push([[453],{75453:(e,n,o)=>{o.r(n),o.d(n,{decode:()=>f,encode:()=>E,encodingExists:()=>w,getDecoder:()=>i,getEncoder:()=>u});const c=new TextEncoder,t=new TextDecoder,d={write:e=>c.encode(e),end(){}},r={write:e=>t.decode(e),end(){}};function s(e){if(!w(e))throw new Error(`Encoding not found: ${e}`)}const u=e=>(s(e),d),i=e=>(s(e),r),w=e=>"utf8"===e,f=(e,n)=>(s(n),r.write(e)),E=(e,n)=>(s(n),d.write(e))}}]);
+//# sourceMappingURL=453.bundle.js.map
